@@ -1,12 +1,12 @@
 body{
  margin:0;
 }
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
 .full{
  width:100%;
-}
-.normal{
- width:1100px;
- margin:0 auto;
 }
 .sectionPadding{
  padding:50px 0px;
@@ -14,10 +14,13 @@ body{
 .clear{
  clear:both;
 }
+.marginRight{
+	margin-right: 24px;
+}
 #wrapper{
+	height: 1024px;
 	background:url(../images/header.jpg);
 	background-size: cover;
-	height: 880px;
 }
 #wrapper .header{
 	margin: 0 auto;
@@ -53,6 +56,7 @@ body{
 	color: #746e5d;
 	margin: 0px 30px;
 	font-size: 20px;
+	transition: all 0.3s ease;
 }
 #wrapper .wrapperItems .main li:first-child{
 	color: #bce623;
@@ -64,8 +68,8 @@ body{
 #wrapper .wrapperItems .img{
 	width: 80%;
 	margin: 0 auto;
-	height: 450px;
 	background-size: cover;
+	padding-bottom: 40px;
 }
 #wrapper .wrapperItems .img img{
 	width: 100%;
@@ -76,10 +80,8 @@ body{
 	height: 250px;
 }
 #wrapper .wrapperItems .apartments .item{
-	margin: 0 auto;
-	margin-top: 40px;
-	width: calc(33.33% - 3px);
-	height: 250px;
+	width: calc(33.33% - 19px);
+	height: 330px;
 	background: white;
 	display: inline-block;
 	background-size: cover;
@@ -96,4 +98,36 @@ body{
 #wrapper .wrapperItems .apartments .item p{
 	color: #b2ad9d;
 	font-size: 18px;
+}
+#search{
+	background-color: #f1f1e6;
+	height: 600px;
+}
+#search .container .firstItem{
+	width: 100%;
+	margin: 0 auto;
+	height: 80px;
+	margin-top: 80px;
+	background: white;
+}
+#search .container .firstItem .first h1{
+	margin: 25px;
+	display: inline-block;
+	font-size: 30px;
+	color: #5d5d52;
+}
+#search .container .firstItem .second{
+	position: relative;
+}
+.second .input1{
+	margin: 25px 25px;
+	position: absolute;
+	width: 40%;
+	height: 50px;
+	border: 2px solid #f1f1e6;
+}
+.second .input2{
+	width: 8%;
+	height: 50px;
+	position: absolute;
 }
