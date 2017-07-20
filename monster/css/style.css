@@ -1,0 +1,99 @@
+body{
+ margin:0;
+}
+.full{
+ width:100%;
+}
+.normal{
+ width:1100px;
+ margin:0 auto;
+}
+.sectionPadding{
+ padding:50px 0px;
+}
+.clear{
+ clear:both;
+}
+#wrapper{
+	background:url(../images/header.jpg);
+	background-size: cover;
+	height: 880px;
+}
+#wrapper .header{
+	margin: 0 auto;
+	width: 80%;
+	height: 90px;
+	background: white;
+	border-top: 5px solid #bce623;
+}
+#wrapper .wrapperItems .main{
+	width: 80%;
+	height: 200px;
+	background: white;
+	text-align: center;
+	margin: 0 auto;
+}
+#wrapper .wrapperItems .main p{
+	line-height: 24px;
+    font-size: 16px;
+    color: #a59e8d;
+}
+#wrapper .wrapperItems .main .navBar{
+
+}
+#wrapper .wrapperItems .main .navBar{
+	margin-top: 40px;
+}
+#wrapper .wrapperItems .main ul{
+	list-style-type: none;
+}
+#wrapper .wrapperItems .main li{
+	display: inline-block;
+	line-height: 24px;
+	color: #746e5d;
+	margin: 0px 30px;
+	font-size: 20px;
+}
+#wrapper .wrapperItems .main li:first-child{
+	color: #bce623;
+}
+#wrapper .wrapperItems .main li:hover{
+	color: #bce623;
+	cursor: pointer;
+}
+#wrapper .wrapperItems .img{
+	width: 80%;
+	margin: 0 auto;
+	height: 450px;
+	background-size: cover;
+}
+#wrapper .wrapperItems .img img{
+	width: 100%;
+}
+#wrapper .wrapperItems .apartments{
+	width: 80%;
+	margin: 0 auto;
+	height: 250px;
+}
+#wrapper .wrapperItems .apartments .item{
+	margin: 0 auto;
+	margin-top: 40px;
+	width: calc(33.33% - 3px);
+	height: 250px;
+	background: white;
+	display: inline-block;
+	background-size: cover;
+	text-align: center;
+}
+#wrapper .wrapperItems .apartments .item img{
+	width: 100%;
+}
+#wrapper .wrapperItems .apartments .item h1{
+	margin-top: 30px;
+    font-size:30px;
+    color: #d2c970;
+}
+#wrapper .wrapperItems .apartments .item p{
+	color: #b2ad9d;
+	font-size: 18px;
+}
