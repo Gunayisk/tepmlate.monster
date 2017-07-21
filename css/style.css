@@ -1,5 +1,6 @@
 body{
  margin:0;
+ font-family: 'Open Sans', sans-serif;
 }
 .container{
 	width: 80%;
@@ -81,7 +82,7 @@ body{
 }
 #wrapper .wrapperItems .apartments .item{
 	width: calc(33.33% - 19px);
-	height: 330px;
+	height: 340px;
 	background: white;
 	display: inline-block;
 	background-size: cover;
@@ -94,6 +95,8 @@ body{
 	margin-top: 30px;
     font-size:30px;
     color: #d2c970;
+    font-family: 'Open Sans', sans-serif;
+
 }
 #wrapper .wrapperItems .apartments .item p{
 	color: #b2ad9d;
@@ -103,12 +106,20 @@ body{
 	background-color: #f1f1e6;
 	height: 600px;
 }
+#search .container{
+	mar
+}
 #search .container .firstItem{
 	width: 100%;
 	margin: 0 auto;
 	height: 80px;
-	margin-top: 80px;
+	margin-top: 110px;
 	background: white;
+	position: relative;
+}
+#search .container .firstItem .first {
+	width: 30%;
+	position: absolute;
 }
 #search .container .firstItem .first h1{
 	margin: 25px;
@@ -117,17 +128,152 @@ body{
 	color: #5d5d52;
 }
 #search .container .firstItem .second{
-	position: relative;
+	width: 70%;
+	float: right;
+	margin-top: 10px;
+	
+
 }
 .second .input1{
-	margin: 25px 25px;
-	position: absolute;
-	width: 40%;
-	height: 50px;
+	float: left;
+	width: 80%;
+	height: 60px;
 	border: 2px solid #f1f1e6;
 }
 .second .input2{
-	width: 8%;
-	height: 50px;
-	position: absolute;
+	margin-right: 20px;
+	float: right;
+	width: 17%;
+	height: 60px;
+	background-color: #bce623;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	transition: all 01s ease;
+}
+.second .input2:hover{
+	background: #616156;
+	cursor: pointer;
+}
+#search .container .secondItem{
+	width: 100%;
+	margin: 0 auto;
+	height: 180px;
+	margin-top: 50px;
+}
+#search .container .secondItem .item h1{
+	color: #584a3e;
+	font-size: 30px;
+	font: normal 40px/50px Open Sans;
+
+}
+#search .container .secondItem .item h5{
+	color: #A69C7F;
+	font-size: 20px;
+
+}
+#search .container .secondItem .item p{
+	color: #6A6A60;
+	font-size: 17px;
+	font-family: 'Open Sans', sans-serif;
+}
+#search .container .secondItem .item button{
+	width: 85px;
+	height: 42px;
+	background: #6B5F53;
+	cursor: pointer;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+#search .container .secondItem .first {
+	float: left;
+	width: 50%;
+
+}
+#search .container .secondItem .second {
+	float: right;
+	width: 50%;
+}
+#booking{
+	background:url(../images/parallax1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 450px;
+}
+#booking .container .bookItem{
+	margin: 0 auto;
+	width: 830px;
+	height: 330px;
+	background: rgba(0,0,0,.3);
+	margin-top: 30px;
+	cursor: pointer;
+	transition: background .5s ease;
+	text-align: center;
+}
+#booking .container .bookItem:hover{
+	background: #000;
+}
+#booking .container .bookItem a{
+	text-decoration: none;
+}
+#booking .container .bookItem h1{
+	text-align: center;
+	height: 180px;
+	margin: 0;
+    font-size: 150px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+#booking .container .bookItem span{
+	line-height: 100px;
+	font-size: 70px;
+    font-weight: bold;
+    color: white;    
+}
+#booking .container .bookItem em{
+	line-height: 100px;
+	font-size: 70px;
+    font-weight: bold;
+    color: #A8D700;
+    font-style: initial;
+    margin: 10px;
+}
+#service{
+	background: #F1F1E6;
+	height: 700px;
+	text-align: center;
+}
+#service .container h1{
+	font: normal 45px/55px Open Sans;
+    color: #584a3e;
+}
+#service .container ul{
+	list-style-type: none;
+}
+#service .container ul li{
+	margin: 4px;
+	display: inline-block;
+	width: 145px;
+	height: 40px;
+	background: #6B5F53;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	cursor: pointer;
+	transition: all .5s ease;
+}
+#service .container ul li:first-child{
+	background: #A8D700;
+}
+#service .container ul li:hover{
+	background: #A8D700;
+}
+#service .container .img .imgItem{
+	width: calc(25%-10);
+	display: inline-block;
+	margin: 10px;
 }
